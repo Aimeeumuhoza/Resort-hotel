@@ -1,0 +1,44 @@
+.content{
+
+    padding: 2rem;
+    background-color: antiquewhite;
+
+}
+
+.content-image{
+    
+    padding: 64px,64px;
+    display:flex;
+    width: 100%px;
+    height: 406px;
+    opacity: 0.8;
+    margin: 50px,50px;
+    justify-content: center;
+    color: white;
+   
+    background-image: url('../content/data/back.jpg');
+    background-size: cover; 
+    opacity: 0.5;
+    position: relative;
+   
+   
+}
+.section{
+    justify-content: center;   
+    display: flex;
+    color:azure
+    
+    
+    
+}
+.table{
+    width: 898px;; 
+    height: 235px;
+    text-align: left;
+    padding: 110px;
+    background-color: beige;
+    border-collapse:collapse;
+    justify-content: center;   
+    display: block;
+    justify-content: center;
+}
