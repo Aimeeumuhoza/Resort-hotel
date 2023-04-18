@@ -10,20 +10,17 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./nav.css"
 function NavigationBar() {
     return (
-      <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">Resort Hotel</Navbar.Brand>
+      <Navbar bg="black" expand="lg"  >
+      <Container style={{ color: 'white' }}>
+        <Navbar  style={{  marginRight: '20px', textDecoration: 'none'  }}href="#">Resort Hotel</Navbar>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link>Home</Nav.Link>
-            <Nav.Link as={Link} to="/login">login</Nav.Link>
-            <NavDropdown title="Hotel" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Motel</NavDropdown.Item>
+        <div className="a">
+            <Link style={{ color: 'white', marginRight: '20px', textDecoration: 'none'  }}>Home</Link>
+            <Link style={{ color: 'white', marginRight: '20px', textDecoration: 'none'  }}>About</Link>
+            <Link as={Link} to="/login"  style={{ color: 'white', marginRight: '20px', textDecoration: 'none'  }}>login</Link>
+            <NavDropdown title="Hotel"  style={{ color: 'white',marginRight: '230px',display: 'inline-block' }}>
+              <NavDropdown.Item href="#action3" >Motel</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Apartment
               </NavDropdown.Item>
@@ -33,16 +30,24 @@ function NavigationBar() {
               </NavDropdown.Item>
             </NavDropdown>
            
-          </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+          </div>
+          
+          <div className="search">
+  <input
+    type="text"
+    className="searchContainer "
+    placeholder="Search"
+    aria-label="Search"
+    aria-describedby="search-button"
+  />
+  <button
+    className="button"
+    type="button"
+    
+  >
+    Search
+  </button>
+</div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

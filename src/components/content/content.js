@@ -2,65 +2,50 @@
 import React from "react";
 
 import "./content.css"
-import hotel from "../content/data/hotel.jpg"
+import back from "../content/data/back.jpg"
+
+
 
 const Content = () =>{
     return(
-        <div>
+        <div className="content-image">
             
-            <div className="content-image">
-            <img src={hotel} alt="hotel"/>
-            
-                
-            <h1><b> OUR SERVICES</b></h1>
-           
+        <img src={back} alt="hotel" style={{ width: '100%'}} />
+        <div className="container1">
+            <h1 style={{ fontSize: '5rem' }}><b>RESORT HOTEL </b></h1>
         </div>
-        <div className="section">
-        <section style={{width:"50%"}}>
+        <div className="box">
             
         
-           
-            </section>
-    
-    
-    </div>
-    <div className="table">
-    <table style={{border:"collapse"}}>
-        <tr>
-            <td style={{width:"50%"}} ><p><i>You all know us. And we all 
-                know you. We are getting married lorem 
-                ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in
-                   culpa qui officia deserunt mollit anim id est laborum 
-                   consectetur adipiscing elit, sed do eiusmod tempor 
-                   incididunt ut labore et dolore magna aliqua. Ut enim 
-                   ad minim veniam, quis nostrud exercitation ullamco 
-                   laboris nisi ut aliquip ex ea commodo consequat.</i>
-                </p>
-            </td>
+        <div className="boxes">
+        <h4>Booking</h4> <br/>
+        </div>
+        <div className="boxe">
+      <div className="sub-box" style={{ backgroundColor: 'white ', width: '38%', height: '120px' }}>
+        <div className="text">
+        <h5>from</h5>
+        </div>
+      </div>
+      <div className="sub-box" style={{ backgroundColor: 'white', width: '38%', height: '120px'}}> 
+      <div className="text">
+        <h5>from</h5>
+        </div>
+      </div>
+      <div className="sub-box" style={{ backgroundColor: 'white', width: '53%', height: '120px' }}>
+      <div className="text">
+        <h5>from</h5>
+        </div>
+      </div>
+      <div className="sub-box" style={{ backgroundColor: 'white', width: '53%', height: '120px' }}></div>
+      <div className="sub-box" style={{ backgroundColor: 'white', width: '25%', height: '120px' }}></div>
+            
+            </div>
+            </div>
+        
 
-            <td style={{width:"50%"}}><p><i>You all know us. And we all 
-                know you. We are getting married lorem 
-                ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in
-                   culpa qui officia deserunt mollit anim id est laborum 
-                   consectetur adipiscing elit, sed do eiusmod tempor 
-                   incididunt ut labore et dolore magna aliqua. Ut enim 
-                   ad minim veniam, quis nostrud exercitation ullamco 
-                   laboris nisi ut aliquip ex ea commodo consequat.</i>
-                </p></td>
-        </tr>
-        </table>
-        </div>
         
-        </div>
-    )
+            </div>
+        )
 }
 
 export default Content
