@@ -19,9 +19,9 @@ const Login = () => {
   };
 
   return (
-    
+
     <div>
-      
+
       <h1>Login Page</h1>
       <form onSubmit={handleFormSubmit}>
         <div>
@@ -48,4 +48,4 @@ const Login = () => {
   );
 };
 
- export default Login;
+export default Login;

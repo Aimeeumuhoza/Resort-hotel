@@ -6,12 +6,10 @@ import  Content from "../components/content/content"
 
 const Home = () =>{
     return(
-        <div>
+        <>
            <NavigationBar/> 
-         <Content/>
-       
-        </div>
-
+            <Content/>
+        </>
     )
 }
 export default Home
