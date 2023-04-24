@@ -61,11 +61,24 @@
   margin-right: 10px;
   justify-content: center;
   align-items: center;
+  
 }
 .sub-box{
     margin-right: 20px;
     left: 40%;
 }
+.sub-box select {
+    width: 80%;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+    border: 6px solid #ccc;
+    border-radius: 4px;
+    
+   
+  }
 
 .section{
     justify-content: center;   
@@ -83,4 +96,20 @@
     display: block;
     justify-content: center;
 }
+.li {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px 20px;
 
+  }
+  
+  .li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  .li:hover{
+    background-color: black;
+  }
+  
