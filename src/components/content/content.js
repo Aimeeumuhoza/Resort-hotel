@@ -59,7 +59,15 @@ const Content = () => {
       <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a></div>
     </div>
   </div>
-      <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px' }} />
+
+      <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
+    <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
+    <div style={{ position: 'absolute', bottom:' 25px', left: '30px', width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
+      <h4> La millieur</h4>
+      <div className="li">
+      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a></div>
+    </div>
+  </div>
       <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
       <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
       </div>
@@ -68,11 +76,17 @@ const Content = () => {
     <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
     <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
     <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
-    <img src={resort} alt="hotel" style={{ width: '20%',height:'15%' ,padding:'24px'}} />
+    
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '20%', padding: '24px'}}>
+      <img src={resort} alt="hotel" style={{ width: '100%', height:'100%' }} />
+      <div className="lin">
+      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a></div>
+    </div>
   </div>
   
 </div>
        </div>
+       
        </div>
     </div>
   )

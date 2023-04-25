@@ -112,4 +112,24 @@
   .li:hover{
     background-color: black;
   }
+
+
+  .lin {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 20px;
+    background-color: #000;
+
+  }
+  
+  .lin a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  .lin:hover{
+    background-color:#333
+  }
+
   

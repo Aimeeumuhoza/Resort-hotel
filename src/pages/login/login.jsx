@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./login.css";
-
+import NavigationBar from "../../components/nav/nav"
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -19,13 +19,14 @@ const Login = () => {
   };
 
   return (
-
+    
     <div>
-
-      <h1>Login Page</h1>
-      <form onSubmit={handleFormSubmit}>
+<NavigationBar/>
+<h1 style={{color:'black'}}>Login Page</h1>
+<div className="body" >
+    <form onSubmit={handleFormSubmit}>
         <div>
-          <label>Email: </label>
+          <label>Email:  </label>
           <input
             type="text"
             id="email"
@@ -44,6 +45,7 @@ const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
+      </div>
     </div>
   );
 };
