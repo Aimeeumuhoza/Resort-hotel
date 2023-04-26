@@ -15,7 +15,8 @@
     flex-Direction: column;
     align-Items: center;
     justify-Content: center;
-    color:whitesmoke
+    color:whitesmoke;
+    
 }
 .box{
     position: absolute;
@@ -98,8 +99,9 @@
 }
 .li {
     display: inline-block;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 5px 20px;
+    background-color: #333;
 
   }
   

@@ -1,8 +1,12 @@
 
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+
 import "./content.css"
 import back from "../../assets/images/back.jpg"
 import resort from "../../assets/images/resort.jpg"
+import about from "../../assets/images/about-1.jpg"
 
 const Content = () => {
   return (
@@ -48,32 +52,73 @@ const Content = () => {
       </div>
     </div>
     <div className="cadret">
-      <div>
+      
       <div style={{display:'flex'}}>
         
       <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
     <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
-    <div style={{ position: 'absolute', bottom:' 25px', left: '30px', width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
+    <div style={{ position: 'absolute', bottom:' 90px', left: '30px',width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
       <h4> La posh hotel</h4>
-      <div className="li">
-      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a></div>
     </div>
+    <figcaption>
+    <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Nyarugenge
+    </figcaption>
+    <figcaption>
+    <div className="li">
+      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a>
+      </div>
+    </figcaption>
   </div>
 
       <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
     <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
-    <div style={{ position: 'absolute', bottom:' 25px', left: '30px', width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
+    <div style={{ position: 'absolute', bottom:' 85px', left: '30px', width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
       <h4> La millieur</h4>
-      <div className="li">
-      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a></div>
-    </div>
+     </div>
+     <figcaption>
+    <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+    </figcaption>
+    <figcaption>
+    <div className="li">
+      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a>
+      </div>
+    </figcaption>
   </div>
-      <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
-      <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
+  <div style={{ position: 'relative',width: '25%', padding:'24px' }}>
+    <img src={resort} alt="hotel" style={{ width: '100%', height:'auto' }} />
+    <div style={{ position: 'absolute', bottom:' 85px', left: '30px', width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
+      <h4> NYC</h4>
+     </div>
+    <figcaption>
+    <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+    </figcaption>
+    <figcaption>
+    <div className="li">
+      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a>
+      </div>
+    </figcaption>
+  </div>
+  <div style={{ position: 'relative',width: '25%', padding:'24px' }}>
+      <img src={resort} alt="hotel" style={{ width: '100%',height:'auto' }} />
+      <div style={{ position: 'absolute', bottom:' 85px', left: '30px', width: '80%', color: 'white' ,backgroundColor: 'rgba(0, 0, 0, 0.2)',fontStyle: 'bold' }}>
+      <h4> NYC</h4>
+     </div>
+     <figcaption>
+    <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+    </figcaption>
+    <figcaption>
+    <div className="li">
+      <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{color:'white',textDecoration: 'none', fontWeight: 'bold'}}> More....</a>
+      </div>
+    </figcaption>
+      </div>
       </div>
       <div style={{display:'flex', flexDirection: 'column'}}>
   <div style={{display:'flex'}}>
-    <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
+    <figure style={{ width: '25%', padding:'24px' }}>
+    <img src={resort} alt="hotel" style={{ width: '100%', height:'auto' }} />
+    <figcaption>Image 1</figcaption>
+  </figure>
     <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
     <img src={resort} alt="hotel" style={{ width: '25%',height:'25%' ,padding:'24px'}} />
     
@@ -86,9 +131,49 @@ const Content = () => {
   
 </div>
        </div>
+
+       <div style={{marginLeft:'90px' ,marginTop:'23Px',backgroundColor:'#ecf3f3'}}>
+        <table style={{width:'100%',display:'flex'}}>
+
+       
+          <td style={{width:'50%'}}>
+          <div style={{display:'block',marginTop:'23px'}}>
+          
+          <h1>About us</h1>
+          
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. 
+            Donec in sodales dui, 
+            a blandit nunc.
+             Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultricies volutpat tellus.
+         Dolor sit amet, consectetur adipiscing elised do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</h4>
+         </div>
+          </td>
+          
+
+          <td style={{width:'50%'}}>
+          <div style={{display:'flex',marginTop:'23px'}}>
+        
+        <div style={{ position: 'relative', width: '100%', padding: '24px' }}>
+      <img src={about} alt="hotel" style={{ width: '50%', height: 'auto' ,padding:'14px'}} />
+      <img src={resort} alt="hotel" style={{ width: '50%', height: 'auto',padding:'17px'}} />
+    </div>
+  
+        
+  </div>
+  <div style={{display:'flex'}}>
+    <div style={{ position: 'relative',width: '50%', padding:'24px' }}>
+      <img src={resort} alt="hotel" style={{ width: '100%', height:'auto' }} />
+    </div>
+    <div style={{ position: 'relative',width: '50%', padding:'24px' }}>
+        <img src={resort} alt="hotel" style={{ width: '100%',height:'auto' }} />
+        </div>
+        </div>
+          </td>
+        </table>
+       </div>
        
        </div>
-    </div>
+
   )
 }
 
