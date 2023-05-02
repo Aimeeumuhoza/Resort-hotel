@@ -38,11 +38,5 @@ form {
   button[type="submit"]:hover {
     background-color: #005ea6;
   }
-  .body{
-    background-image:url(../../assets/images/hotel.jpg) ;
-    width: 623px;
-    margin-top: 1%;
-    margin-left: 335px;
-    height: 100%;
-  }
+  
   

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./login.css";
 import NavigationBar from "../../components/nav/nav"
+import back from "../../assets/images/back.jpg"
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -23,6 +24,14 @@ const Login = () => {
     <div>
 <NavigationBar/>
 <h1 style={{color:'black'}}>Login Page</h1>
+<table style={{width:'70%',marginRight:'140px',marginLeft:'120px'}} >
+
+
+<td style={{width:'40%'}}>
+      <img src={back} alt="hotel"  />
+      </td>
+      
+<td style={{width:'30%'}}>
 <div className="body" >
     <form onSubmit={handleFormSubmit}>
         <div>
@@ -46,6 +55,8 @@ const Login = () => {
         <button type="submit">Login</button>
       </form>
       </div>
+      </td>
+      </table>
     </div>
   );
 };
