@@ -2,13 +2,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    border: 8px solid #ccc;
-    border-radius: 34px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    max-width: 400px;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 3px;
     margin: 0 auto;
     background-color: #fff;
+    width: 865px;
+    height: 500px;
   }
   
   h1 {
@@ -17,7 +17,7 @@ form {
   
   input {
     padding: 10px;
-    margin: 10px 0;
+    margin-top: 53%;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -38,5 +38,5 @@ form {
   button[type="submit"]:hover {
     background-color: #005ea6;
   }
-  
+ 
   
