@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -58,7 +59,7 @@ const Content = () => {
 
         <div style={{ display: 'flex' }}>
 
-          <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
+          <div style={{ position: 'relative', width: '25%', padding: '24px',border: '2px solid black '}}>
             <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
             <div style={{ position: 'absolute', bottom: ' 90px', left: '30px', width: '80%', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.2)', fontStyle: 'bold' }}>
               <h4> La posh hotel</h4>
@@ -68,7 +69,8 @@ const Content = () => {
             </figcaption>
             <figcaption>
               <div className="li">
-                <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</a>
+
+                <Link as={Link} to="/hotel" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</Link>
               </div>
             </figcaption>
           </div>

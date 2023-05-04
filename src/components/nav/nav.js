@@ -13,7 +13,7 @@ function NavigationBar() {
         <Navbar.Collapse id="navbarScroll">
           <div className="a">
             <Link style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>Home</Link>
-            <Link style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>About</Link>
+            <Link as={Link} to="/content"style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>About</Link>
             <Link as={Link} to="/login" style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>login</Link>
             <NavDropdown title="Hotel" style={{ color: 'white', marginRight: '230px', display: 'inline-block' }}>
               <NavDropdown.Item href="#action3" >Motel</NavDropdown.Item>
