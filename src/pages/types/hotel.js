@@ -8,6 +8,7 @@ return(
     <div>
 <NavigationBar/>
 <div>
+  <h4 style={{color:'black',marginLeft:'560px',marginTop:'45px'}}> For Booking</h4>
 <table>
   <tbody>
     <tr>
@@ -21,7 +22,8 @@ return(
         </div>
       </td>
       <td class="Right-column">
-        <img src={image} alt="hotel" class="imagee" />
+        <h4>Contact owner</h4>
+       
       </td>
     </tr>
   </tbody>
