@@ -118,23 +118,68 @@ const Content = () => {
             </figcaption>
           </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <div style={{ display: 'flex' }}>
-            <figure style={{ width: '25%', padding: '24px' }}>
-              <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
-              <figcaption>Image 1</figcaption>
-            </figure>
-            <img src={resort} alt="hotel" style={{ width: '25%', height: '25%', padding: '24px' }} />
-            <img src={resort} alt="hotel" style={{ width: '25%', height: '25%', padding: '24px' }} />
-
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '20%', padding: '24px' }}>
-              <img src={resort} alt="hotel" style={{ width: '100%', height: '100%' }} />
-              <div className="lin">
-                <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</a></div>
+        <div style={{  display: 'flex'  }}>
+        <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
+            <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
+            <div style={{ position: 'absolute', bottom: ' 85px', left: '30px', width: '80%', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.2)', fontStyle: 'bold' }}>
+              <h4> NYC</h4>
             </div>
+            <figcaption>
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+            </figcaption>
+            <figcaption>
+              <div className="li">
+                <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</a>
+              </div>
+            </figcaption>
           </div>
-
-        </div>
+          <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
+            <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
+            <div style={{ position: 'absolute', bottom: ' 85px', left: '30px', width: '80%', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.2)', fontStyle: 'bold' }}>
+              <h4> NYC</h4>
+            </div>
+            <figcaption>
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+            </figcaption>
+            <figcaption>
+              <div className="li">
+                <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</a>
+              </div>
+            </figcaption>
+          </div>
+          <div style={{ position: 'relative', width: '25%', padding: '24px' }}>
+            <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
+            <div style={{ position: 'absolute', bottom: ' 85px', left: '30px', width: '80%', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.2)', fontStyle: 'bold' }}>
+              <h4> NYC</h4>
+            </div>
+            <figcaption>
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+            </figcaption>
+            <figcaption>
+              <div className="li">
+                <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</a>
+              </div>
+            </figcaption>
+          </div>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '20%', padding: '24px' }}>
+            
+            <img src={resort} alt="hotel" style={{ width: '100%', height: 'auto' }} />
+            <div style={{ position: 'absolute', bottom: ' 85px', left: '30px', width: '80%', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.2)', fontStyle: 'bold' }}>
+              <h4> NYC</h4>
+            </div>
+            <figcaption>
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> Kigali, Gasabo
+            </figcaption>
+            <figcaption>
+              <div className="li">
+                <a href='https://www.youtube.com/watch?v=zfHbuTG8IHE' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</a>
+              </div>
+            </figcaption>
+            </div>
+              <div className="lin">
+              <Link as={Link} to="/hotel" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}> More....</Link>
+                </div>
+            </div>
       </div>
 
       <div style={{ marginLeft: '90px', marginTop: '23Px', backgroundColor: '#ecf3f3' }}>
